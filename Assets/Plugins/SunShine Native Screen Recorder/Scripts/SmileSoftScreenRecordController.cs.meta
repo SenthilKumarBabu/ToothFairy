@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 13abae3b59930124d802258161174b5c
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 180403
+  packageName: Native Screen Recorder For Android & iOS
+  packageVersion: 4.3.2
+  assetPath: Assets/Plugins/SunShine Native Screen Recorder/Scripts/SmileSoftScreenRecordController.cs
+  uploadId: 771397

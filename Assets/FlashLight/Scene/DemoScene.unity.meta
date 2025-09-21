@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e4c686fc29f4846aba6d463308d2ef5c
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 241045
+  packageName: Flash Light for iOS and Android
+  packageVersion: 1.0
+  assetPath: Assets/FlashLight/Scene/DemoScene.unity
+  uploadId: 548567

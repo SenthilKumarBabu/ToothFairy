@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 389b22222e03ba843bfea119a9f2c80b, type: 3}
+  m_Name: English
+  m_EditorClassIdentifier: 
+  songList:
+  - name: Giramille
+    clip: {fileID: 8300000, guid: 13a9a845437f20947b2f7a60b177473b, type: 3}
+  - name: BARATINHA INGLES_02
+    clip: {fileID: 8300000, guid: d1299c5489887e6449fde8840b969c02, type: 3}
+  - name: A CASA DA GIRAMILLE INGLES_02
+    clip: {fileID: 8300000, guid: 9aaebd77e72cdc245b0aae2f52b0f879, type: 3}
+  - name: A DONA ARANHA GIRAMILLE INGLES_01
+    clip: {fileID: 8300000, guid: 9f376e32e7868c64a825f86311c2fdd1, type: 3}
+  - name: ABC GIRAMILLE INGLES_16
+    clip: {fileID: 8300000, guid: 90dca771fb5e43b4190471056f50a0ae, type: 3}
+  - name: ALECRIM GIRAMILLE INGLES_02
+    clip: {fileID: 8300000, guid: 0201a69a70649d644838b27b1e39dfcf, type: 3}
+  - name: AMIGOS PARA SEMPRE INGLE 2_02
+    clip: {fileID: 8300000, guid: 83307157370bcd84887c8723c17007ff, type: 3}
+  - name: AU AU MIAU MIAU INGLES_01
+    clip: {fileID: 8300000, guid: 8e7038f6fa0c18345a46ddb34488e269, type: 3}
+  - name: BORBOLETINHA_01
+    clip: {fileID: 8300000, guid: b5cb867a012cc3640ad55cb89f2831f1, type: 3}
+  - name: BRILHA BRILHA  INGLES_01
+    clip: {fileID: 8300000, guid: b1d8e1f9215564a49972350fe393f767, type: 3}
+  - name: "CABE\xC7A OMBRO JOELHO E PE INGLES_01"
+    clip: {fileID: 8300000, guid: 8b62d957a7050fe4f83b75342e633147, type: 3}
+  - name: CANOA_04
+    clip: {fileID: 8300000, guid: 6196f0586b8512a4294ada8fe5696291, type: 3}
+  - name: FADA DO DENTE INGLES MIX FINAL_04
+    clip: {fileID: 8300000, guid: af36c07703b4ad24da795b6d8a504ffc, type: 3}
+  - name: GIRA GIRA INGLES_02
+    clip: {fileID: 8300000, guid: 6a91611fab14d2146ba781738c6696f1, type: 3}
+  - name: GIRAMILLE CADE VOCE_01
+    clip: {fileID: 8300000, guid: 4690004332005ee469258a8c8d5bfb1e, type: 3}
+  - name: INDIOZINHOS GIRAMILLE INGLES
+    clip: {fileID: 8300000, guid: 6748a61e362aa5e40967c2845bec794d, type: 3}
+  - name: MEU LANCHINHO GIRAMILLE INGLES_02
+    clip: {fileID: 8300000, guid: f9c5d74661afc0441990ae078cf18379, type: 3}
+  - name: MEU PINTINHO GIRAMILLE INGLES_01
+    clip: {fileID: 8300000, guid: 886758cf68ff067478874397b5e5d0c6, type: 3}
+  - name: MOTORISTA GIRAMILLE INGLES_01
+    clip: {fileID: 8300000, guid: 034bf4b5ae774f14ab6483910ea781bd, type: 3}
+  - name: PAI FRANCISCO GIRAMILLE INGLES_01
+    clip: {fileID: 8300000, guid: 56074a8102e6a0e47b840f1cfa9621e0, type: 3}
+  - name: PARABENS
+    clip: {fileID: 8300000, guid: 85975d520c576d44bae0f3495a925146, type: 3}
+  - name: RODA RODA_04
+    clip: {fileID: 8300000, guid: 5ae7fb3e1fab158439c7b6b8e636ffce, type: 3}
+  - name: ROTINA_05-01
+    clip: {fileID: 8300000, guid: 6121745a4151145428d9becc1743ac15, type: 3}
+  - name: SAFARI DA GIRAMILLE_02
+    clip: {fileID: 8300000, guid: 8e0542c26e9903640bb8eb11cd7ee62d, type: 3}
+  - name: SE ESSA RUA FOSSE MINHA NEW ingles
+    clip: {fileID: 8300000, guid: 810dddcbb1f5fd242a31c9b64891972c, type: 3}
+  - name: MASTER-O SAPO GIRAMILLE INGLES
+    clip: {fileID: 8300000, guid: 412e8243a311c3c448f683276ecfedf4, type: 3}
+  clips:
+  - {fileID: 8300000, guid: 13a9a845437f20947b2f7a60b177473b, type: 3}
+  - {fileID: 8300000, guid: d1299c5489887e6449fde8840b969c02, type: 3}
+  - {fileID: 8300000, guid: 9aaebd77e72cdc245b0aae2f52b0f879, type: 3}
+  - {fileID: 8300000, guid: 9f376e32e7868c64a825f86311c2fdd1, type: 3}
+  - {fileID: 8300000, guid: 90dca771fb5e43b4190471056f50a0ae, type: 3}
+  - {fileID: 8300000, guid: 0201a69a70649d644838b27b1e39dfcf, type: 3}
+  - {fileID: 8300000, guid: 83307157370bcd84887c8723c17007ff, type: 3}
+  - {fileID: 8300000, guid: 8e7038f6fa0c18345a46ddb34488e269, type: 3}
+  - {fileID: 8300000, guid: b5cb867a012cc3640ad55cb89f2831f1, type: 3}
+  - {fileID: 8300000, guid: b1d8e1f9215564a49972350fe393f767, type: 3}
+  - {fileID: 8300000, guid: 8b62d957a7050fe4f83b75342e633147, type: 3}
+  - {fileID: 8300000, guid: 6196f0586b8512a4294ada8fe5696291, type: 3}
+  - {fileID: 8300000, guid: af36c07703b4ad24da795b6d8a504ffc, type: 3}
+  - {fileID: 8300000, guid: 6a91611fab14d2146ba781738c6696f1, type: 3}
+  - {fileID: 8300000, guid: 4690004332005ee469258a8c8d5bfb1e, type: 3}
+  - {fileID: 8300000, guid: 6748a61e362aa5e40967c2845bec794d, type: 3}
+  - {fileID: 8300000, guid: f9c5d74661afc0441990ae078cf18379, type: 3}
+  - {fileID: 8300000, guid: 886758cf68ff067478874397b5e5d0c6, type: 3}
+  - {fileID: 8300000, guid: 034bf4b5ae774f14ab6483910ea781bd, type: 3}
+  - {fileID: 8300000, guid: 56074a8102e6a0e47b840f1cfa9621e0, type: 3}
+  - {fileID: 8300000, guid: 85975d520c576d44bae0f3495a925146, type: 3}
+  - {fileID: 8300000, guid: 5ae7fb3e1fab158439c7b6b8e636ffce, type: 3}
+  - {fileID: 8300000, guid: 6121745a4151145428d9becc1743ac15, type: 3}
+  - {fileID: 8300000, guid: 8e0542c26e9903640bb8eb11cd7ee62d, type: 3}
+  - {fileID: 8300000, guid: 810dddcbb1f5fd242a31c9b64891972c, type: 3}
+  - {fileID: 8300000, guid: 412e8243a311c3c448f683276ecfedf4, type: 3}
+  removeNames:
+  - "Inclus\xE3o - "
+  - 'MASTER -  '
+  - 'MASTER - '
+  - ' (MASTER 1.4 - ENG)'
+  - .WAV

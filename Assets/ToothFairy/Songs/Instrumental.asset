@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 389b22222e03ba843bfea119a9f2c80b, type: 3}
+  m_Name: Instrumental
+  m_EditorClassIdentifier: 
+  songList:
+  - name: 123 Indiozinhos Instrumental
+    clip: {fileID: 8300000, guid: 5326401746012284b931522e70656159, type: 3}
+  - name: A Barata Instrumental
+    clip: {fileID: 8300000, guid: 9af97c89ddd78164d891938d69ec0861, type: 3}
+  - name: A Canoa Virou Instrumental
+    clip: {fileID: 8300000, guid: 5b5d69ce4ab42d243be115cfbadb2f27, type: 3}
+  - name: ABC Instrumental
+    clip: {fileID: 8300000, guid: 7d38fa348b33b134d96ba13cf2aebcc2, type: 3}
+  - name: Alecrim Dourado Instrumental
+    clip: {fileID: 8300000, guid: 50c5b8891dde30740b870753fe68bb97, type: 3}
+  - name: AMIGOS PARA SEMPRE MIX PB new
+    clip: {fileID: 8300000, guid: 96d64a2f53ccd6b4ca9ea58fd97151f4, type: 3}
+  - name: AU AU AU  MIAU MIAU PB
+    clip: {fileID: 8300000, guid: ab47e6f7d9c87b34090817d9b8b2cd97, type: 3}
+  - name: Borboletinha Intrumental
+    clip: {fileID: 8300000, guid: 72ac41f444eede1499433095752515ed, type: 3}
+  - name: Brilha Brilha Estrelinha Instrumental
+    clip: {fileID: 8300000, guid: 7385355d305d35d488cba523cd41a5f8, type: 3}
+  - name: "CABE\xC7A OMBRO JOELHO E PE PB"
+    clip: {fileID: 8300000, guid: 8bee81eafd56e464e8c3f7a4c662bf82, type: 3}
+  - name: CASA DA GIRAMILLE MIX PB
+    clip: {fileID: 8300000, guid: c8ef358729f15f64a89e471d284387ce, type: 3}
+  - name: Dona Aranha
+    clip: {fileID: 8300000, guid: 34eeb22d1d3552e42a0ec332a87ff703, type: 3}
+  - name: FADA DO DENTE PLAYBACK
+    clip: {fileID: 8300000, guid: 73e17cf45994b964fbfe83f2214f0236, type: 3}
+  - name: GIRA GIRA MILLE PB
+    clip: {fileID: 8300000, guid: 1005501cb65d1d64bb9f74c55bc70eef, type: 3}
+  - name: "Giramillie Cad\xEA Voc\xEA Instrumental"
+    clip: {fileID: 8300000, guid: a92f91d929bf1804c92c361e3643fb90, type: 3}
+  - name: Meu Lanchinho Instrumental
+    clip: {fileID: 8300000, guid: 3d66f519ba978c94f8d2d69c7ed5f1fe, type: 3}
+  - name: Meu Pintinho Amarelinho Instrumental
+    clip: {fileID: 8300000, guid: aaa09b798d375a244ab064c5b88bfe0d, type: 3}
+  - name: Motorista Olha o Poste Instrumental
+    clip: {fileID: 8300000, guid: d129234aaf3a53c4fa79b6074de2566d, type: 3}
+  - name: "O Nome Disso \xE9 Inclusao PB"
+    clip: {fileID: 8300000, guid: 4d377fc88e52eab4c8a509622e49b2e7, type: 3}
+  - name: "O Sapo N\xE3o Lava o P\xE9 Instrumental"
+    clip: {fileID: 8300000, guid: 9e12f3f7fe88bdb47be3fe5dedc86bab, type: 3}
+  - name: Pai Francisco Instrumental
+    clip: {fileID: 8300000, guid: 927b2bf3c6aa57844812d572586c8e23, type: 3}
+  - name: "Parab\xE9ns Instrumental"
+    clip: {fileID: 8300000, guid: 6ec47bf0e7bced44c8f57b7be11a5395, type: 3}
+  - name: "Roda Roda Roda... P\xE9 P\xE9 P\xE9..."
+    clip: {fileID: 8300000, guid: 75079c67d800f074887fbda9b4c833b3, type: 3}
+  - name: ROTINA PB
+    clip: {fileID: 8300000, guid: b3be14fb674945645bcf52d924bc8ccc, type: 3}
+  - name: SAFARI DA GIRAMILLE PB
+    clip: {fileID: 8300000, guid: 1fd9e6f8ccc796a498e130f895864601, type: 3}
+  - name: SE ESSA RUA FOSSE MINHA PB
+    clip: {fileID: 8300000, guid: 3046173f167ff29489cacc364f458631, type: 3}
+  clips:
+  - {fileID: 8300000, guid: 5326401746012284b931522e70656159, type: 3}
+  - {fileID: 8300000, guid: 9af97c89ddd78164d891938d69ec0861, type: 3}
+  - {fileID: 8300000, guid: 5b5d69ce4ab42d243be115cfbadb2f27, type: 3}
+  - {fileID: 8300000, guid: 7d38fa348b33b134d96ba13cf2aebcc2, type: 3}
+  - {fileID: 8300000, guid: 50c5b8891dde30740b870753fe68bb97, type: 3}
+  - {fileID: 8300000, guid: 96d64a2f53ccd6b4ca9ea58fd97151f4, type: 3}
+  - {fileID: 8300000, guid: ab47e6f7d9c87b34090817d9b8b2cd97, type: 3}
+  - {fileID: 8300000, guid: 72ac41f444eede1499433095752515ed, type: 3}
+  - {fileID: 8300000, guid: 7385355d305d35d488cba523cd41a5f8, type: 3}
+  - {fileID: 8300000, guid: 8bee81eafd56e464e8c3f7a4c662bf82, type: 3}
+  - {fileID: 8300000, guid: c8ef358729f15f64a89e471d284387ce, type: 3}
+  - {fileID: 8300000, guid: 34eeb22d1d3552e42a0ec332a87ff703, type: 3}
+  - {fileID: 8300000, guid: 73e17cf45994b964fbfe83f2214f0236, type: 3}
+  - {fileID: 8300000, guid: 1005501cb65d1d64bb9f74c55bc70eef, type: 3}
+  - {fileID: 8300000, guid: a92f91d929bf1804c92c361e3643fb90, type: 3}
+  - {fileID: 8300000, guid: 3d66f519ba978c94f8d2d69c7ed5f1fe, type: 3}
+  - {fileID: 8300000, guid: aaa09b798d375a244ab064c5b88bfe0d, type: 3}
+  - {fileID: 8300000, guid: d129234aaf3a53c4fa79b6074de2566d, type: 3}
+  - {fileID: 8300000, guid: 4d377fc88e52eab4c8a509622e49b2e7, type: 3}
+  - {fileID: 8300000, guid: 9e12f3f7fe88bdb47be3fe5dedc86bab, type: 3}
+  - {fileID: 8300000, guid: 927b2bf3c6aa57844812d572586c8e23, type: 3}
+  - {fileID: 8300000, guid: 6ec47bf0e7bced44c8f57b7be11a5395, type: 3}
+  - {fileID: 8300000, guid: 75079c67d800f074887fbda9b4c833b3, type: 3}
+  - {fileID: 8300000, guid: b3be14fb674945645bcf52d924bc8ccc, type: 3}
+  - {fileID: 8300000, guid: 1fd9e6f8ccc796a498e130f895864601, type: 3}
+  - {fileID: 8300000, guid: 3046173f167ff29489cacc364f458631, type: 3}
+  removeNames:
+  - ' MP3'
+  - " (Caranguejo peixe \xE9) Instrumental MP3"

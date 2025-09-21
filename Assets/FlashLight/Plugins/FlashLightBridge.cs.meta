@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: bc2ac2956fbcd4268a49ddefb4f8959c
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 241045
+  packageName: Flash Light for iOS and Android
+  packageVersion: 1.0
+  assetPath: Assets/FlashLight/Plugins/FlashLightBridge.cs
+  uploadId: 548567
