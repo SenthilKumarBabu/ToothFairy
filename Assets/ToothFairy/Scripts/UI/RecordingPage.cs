@@ -1,3 +1,4 @@
+using System;
 using System.Threading;
 using System.Threading.Tasks;
 using UnityEngine;
@@ -29,7 +30,7 @@ public class RecordingPage : MonoBehaviour
         this.gameObject.SetActive(true);
         PlaySequence();
     }
-    
+
     private async void PlaySequence()
     {
         if (_cancellationTokenSource != null)
@@ -37,15 +38,18 @@ public class RecordingPage : MonoBehaviour
             _cancellationTokenSource?.Cancel();
         }
 
+        Debug.Log("Start Recording");
+        
         _cancellationTokenSource = new CancellationTokenSource();
         CancellationToken token = _cancellationTokenSource.Token;
         
-        musicBgSource.Play();
         CopyFrom(spriteRenderer.transform, arObjectSpriteRenderer.transform);
+        await Task.Delay(100);
         spriteRenderer.gameObject.SetActive(true);
         arObjectSpriteRenderer.gameObject.SetActive(false);
         mainPage.gameObject.SetActive(false);
         recorder.StartRecording();
+        musicBgSource.Play();
 
         int delay = Mathf.RoundToInt(1000f / frameRate);
         
@@ -70,6 +74,7 @@ public class RecordingPage : MonoBehaviour
 
     public void StopRecording()
     {
+        Debug.Log("Stop Recording");
         _cancellationTokenSource?.Cancel();
         recorder.StopRecording();
         spriteRenderer.gameObject.SetActive(false);

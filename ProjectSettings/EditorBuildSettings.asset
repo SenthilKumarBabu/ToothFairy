@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 4755b35b590504809a7525fd2109c2e2
   - enabled: 1
-    path: Assets/Scenes/ToothFairy.unity
+    path: Assets/ToothFairy/Scenes/ToothFairy.unity
     guid: 8130bbe7236abcb4daf7d61858e1af78
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 6ee72d15cf39dd748a13eac57397b9af,

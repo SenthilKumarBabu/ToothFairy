@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Android;
 using UnityEngine.UI;
 
 public class MainPage : MonoBehaviour
@@ -97,6 +98,9 @@ public class MainPage : MonoBehaviour
         
         await Task.Delay(1000);
         DisplaySongName();
+
+        await Task.Delay(5000);
+        infoText.SetActive(false);
     }
     
     private void OnFairyButtonClicked(int index)
@@ -122,7 +126,7 @@ public class MainPage : MonoBehaviour
     
     private void DisplaySongName()
     {
-        if (_musicLanguageIndex == 3)
+        if (_musicLanguageIndex == 3)   
         {
             leftButton.gameObject.SetActive(false);
             rightButton.gameObject.SetActive(false);

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using System.IO;
+using System.Threading.Tasks;
 using UnityEngine;
 
 public class SmileSoftScreenRecordController : MonoBehaviour
@@ -14,6 +15,8 @@ public class SmileSoftScreenRecordController : MonoBehaviour
 	private ReplayKitHelper _iosRecorder;
 
 	private bool _isIosTryingToStartRecording = false;
+
+	public AudioSource musicBgAudioSource;
 
 	private void Awake()
 	{
@@ -60,7 +63,7 @@ public class SmileSoftScreenRecordController : MonoBehaviour
 	{
 		if (IsAndroidPlatform())
 			screenRecorder?.Call("StartRecording");
-
+		
 		if (IsIosPlatform())
         {
 
@@ -195,7 +198,7 @@ public class SmileSoftScreenRecordController : MonoBehaviour
 
 
 	//CallBack From Android library
-	public void OnRecordPermissionGranted(string status)
+	public async void OnRecordPermissionGranted(string status)
 	{
 		if (status == "True")
         {
@@ -204,6 +207,13 @@ public class SmileSoftScreenRecordController : MonoBehaviour
         else
         {
 			Debug.Log("Unity>> All Permissions are not granted.Please check the permission list from app setting.");
+		}
+
+		await Task.Delay(500); 
+
+		if (!musicBgAudioSource.isPlaying)
+		{
+			musicBgAudioSource.Play();
 		}
 	}
 

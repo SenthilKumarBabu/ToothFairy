@@ -36,7 +36,7 @@ public class ExampleScreenRecorder : MonoBehaviour
 		//HideAfterVideoCompletePanel();
 		SetUp();
 	}
-
+	
 	void SetUp()
 	{
 		// If want to store video in persistant data Path (Private Path) then use following line
@@ -126,7 +126,7 @@ public class ExampleScreenRecorder : MonoBehaviour
 
 	public void ShareVideo()
 	{
-		SmileSoftScreenRecordController.instance.ShareVideo(_recordedFilePath, "Greetings From SmileSoft", "Sunshine Native Share");
+		SmileSoftScreenRecordController.instance.ShareVideo(_recordedFilePath, "My Cute Video", "Tooth Fairy");
 	}
 
 	public void HideAfterVideoCompletePanel()
@@ -148,5 +148,4 @@ public class ExampleScreenRecorder : MonoBehaviour
 			savedPathText.text ="No file found at: " + _recordedFilePath;
 		}
 	}
-
 }

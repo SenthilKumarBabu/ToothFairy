@@ -13,6 +13,9 @@ public class ArObjectPlacer : MonoBehaviour
     [SerializeField] private ARPlaneManager planeManager;
     [SerializeField] private SpriteRenderer arFrame;
     [SerializeField] private MainPage mainPage;
+    [SerializeField] private RecordingPage recordingPage;
+
+    [SerializeField] private Vector3 positionOffset;
 
     private bool _isPlacing;
     private static readonly List<ARRaycastHit> RayHits = new List<ARRaycastHit>();
@@ -22,7 +25,7 @@ public class ArObjectPlacer : MonoBehaviour
     {
         _mainCamera = Camera.main;
     }
-    
+
     private void Update()
     {
         if (_isPlacing) return;
@@ -69,7 +72,7 @@ public class ArObjectPlacer : MonoBehaviour
         var hit = RayHits[0];
         Vector3 hitPos = hit.pose.position;
 
-        arFrame.transform.position = hitPos;
+        arFrame.transform.position = hitPos + positionOffset;
 
         Vector3 lookDir = _mainCamera.transform.position - hitPos;
         lookDir.y = 0f;
